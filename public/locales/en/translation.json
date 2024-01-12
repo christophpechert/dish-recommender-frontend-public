@@ -1,0 +1,248 @@
+{
+    "deleteModal": {
+        "header": "Delete",
+        "body": "You want to delete: {{name}}?",
+        "okBtn": "Delete",
+        "abortBtn": "Abort"
+    },
+    "editModal": {
+        "header": "Edit",
+        "body": "You want to edit: {{name}}?",
+        "okBtn": "Edit",
+        "label": "New name",
+        "errMsg1": "Text have to 4 characters at least!",
+        "abortBtn": "Abort"
+    },
+    "responseModalCreateKeyword": {
+        "header": "Keyword",
+        "body": "{{name}} successfully created, do you want create another?"
+    },
+    "responseModalCreateMenu": {
+        "header": "Menu",
+        "body": "{{name}} successfully created, do you want create another?"
+    },
+    "responseRatingModal": {
+        "header": "Remove",
+        "body": "Would you remove the dish {{name}} from your recommendation?",
+        "okBtn": "Remove",
+        "abortBtn": "Abort"
+    },
+    "preparationModal": {
+        "header": "Food preparation",
+        "body": "You want preparation: {{name}}?",
+        "okBtn": "Preparation",
+        "label": "You can leave a comment",
+        "labelDatePicker": "Preparation date",
+        "errMsg1": "You have to enter a valid rating between 1 and 5 stars!",
+        "errMsg2": "The preparation date have to be present or in the past!",
+        "abortBtn": "Abort"
+    },
+    "imageTakeModal": {
+        "header": "Take a photo",
+        "abortBtn": "Abort",
+        "captureBtn": "capture photo"
+    },
+    "loginComponent": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "accountQuestion": "You don't have an account?",
+        "button": {
+            "login": "Login",
+            "createNew": "Create new"
+        }
+    },
+    "home": {
+        "greeting": "Welcome {{name}} to the dish recommender!",
+        "recommendation": {
+            "header": "Recommendations",
+            "btn1": "Let dishes be recommended to you",
+            "btn2": "Recommendation for: {{name}}",
+            "text": "Here, you can either receive recommendations for one or more dishes, or view the saved recommendations."
+        },
+        "menu": {
+            "header": "Menus",
+            "btn1": "Go to your menus",
+            "text": "Check out your menus or create a new one."
+        },
+        "dish": {
+            "header": "Dishes",
+            "btn1": "Go to your dishes",
+            "text": "Check out your dishes or create a new one."
+        },
+        "notInUserGroup": {
+            "header": "User group",
+            "btn1": "Create",
+            "btn2": "Join",
+            "text": "You are not in any user group yet, you can create a new one or join a existing one."
+        }
+    },
+    "recommendationOverview": {
+        "header": "Your recommendations",
+        "noResult": "No recommendation found",
+        "noResultBtn": "Would you create a recommendation?",
+        "recommendation": {
+            "body": "Number of dishes: {{numberOf}}",
+            "btn1": "Show dishes",
+            "btn2": "Delete"
+        }
+    },
+    "recommendationDishes": {
+        "header": "Your dishes in the recommendation"
+    },
+    "dish": {
+        "element": {
+            "header": "All dishes",
+            "preparationModal": {
+                "header": "Dish preparation",
+                "closeBtn": "Close",
+                "intlDate": "{{val, datetime}}"
+            },
+            "noPreparations": "No preparations present",
+            "viewAllBtn": "View all"
+        },
+        "detail": {
+            "headerNew": "Create new dish",
+            "headerUpdate": "Update dish",
+            "name": "Name",
+            "description": "Description",
+            "comment": "Comment",
+            "type": "Type",
+            "soup": "Soup",
+            "starter": "Starter",
+            "main_course": "Main course",
+            "dessert": "Dessert",
+            "snack": "Snack",
+            "side_dish": "Side dish",
+            "breakfast": "Breakfast",
+            "cookingTimeCategory": "Cooking time category",
+            "fast": "Fast",
+            "moderate": "Moderate",
+            "slow": "slow",
+            "dietaryCategory": "Dietary category",
+            "non_vegetarian": "Non vegetarian",
+            "vegetarian": "Vegetarian",
+            "vegan": "Vegan",
+            "caloricCategory": "Caloric category",
+            "light": "Light",
+            "medium": "Medium",
+            "heavy": "Heavy",
+            "location": "Location",
+            "web": "Web",
+            "cookbook": "Cookbook",
+            "page": "Page",
+            "link": "Link",
+            "keywords": "Keywords",
+            "locationHeaderNew": "Create new location",
+            "locationHeaderUpdate": "Update location",
+            "close": "Close",
+            "addNew": "Add new",
+            "save": "Save",
+            "menu": "Menu",
+            "menus": "Menus"
+        },
+        "images": {
+            "header": "Your photos to {{name}}"
+        }
+    },
+    "menu": {
+        "overview": {
+            "header": "Your Menus",
+            "noMenus": "There are no menus"
+        },
+        "element": {
+            "dish": "dish",
+            "dishes": "dishes"
+        },
+        "detail": {
+            "headerNew": "Create new menu",
+            "headerUpdate": "Update menu",
+            "name": "Name",
+            "description": "Description",
+            "errorNameBlank": "Name must not be blank",
+            "errorDescriptionBlank": "Description must not be blank"
+        }
+    },
+    "keyword": {
+        "detail": {
+            "headerNew": "Create new keyword",
+            "headerUpdate": "Update keyword",
+            "name": "Name",
+            "errMsg1": "{{name}} already exist, please use another name!",
+            "errMsg2": "No valid ID",
+            "errMsg3": "Name must not be blank"
+        },
+        "overview": {
+            "header": "Your keywords",
+            "noKeywords": "There are no keywords",
+            "createKeyword": "Would you create one?"
+        }
+    },
+    "data": {
+        "overview": {
+            "header": "Import and export",
+            "dishes": "Dishes",
+            "menus": "Menus",
+            "keywords": "Keywords",
+            "exportBtn": "Export"
+        }
+    },
+    "navBar": {
+        "home": "Home",
+        "userGroup": "User Group",
+        "menus": "Menus",
+        "dishes": "Dishes",
+        "keywords": "Keywords",
+        "create": "Create",
+        "data": "Data",
+        "logout": "Logout",
+        "login": "Login",
+        "newDish": "New dish",
+        "newMenu": "New menu",
+        "newKeyword": "New keyword"
+    },
+    "recommendation": {
+        "creation": {
+            "header": "Recommendation",
+            "menus": "Menus",
+            "keywords": "Keywords",
+            "keywordBtn1": "Only one keyword must be included",
+            "keywordBtn2": "All keywords must be included",
+            "errMsg": "Select a menu please!",
+            "type": "Type",
+            "soup": "Soup",
+            "starter": "Starter",
+            "main_course": "Main course",
+            "dessert": "Dessert",
+            "snack": "Snack",
+            "side_dish": "Side dish",
+            "breakfast": "Breakfast",
+            "cookingTimeCategory": "Cooking time category",
+            "fast": "Fast",
+            "moderate": "Moderate",
+            "slow": "slow",
+            "dietaryCategory": "Dietary category",
+            "non_vegetarian": "Non vegetarian",
+            "vegetarian": "Vegetarian",
+            "vegan": "Vegan",
+            "caloricCategory": "Caloric category",
+            "light": "Light",
+            "medium": "Medium",
+            "heavy": "Heavy",
+            "noResult": "no dishes found",
+            "saveModal": {
+                "header": "Save recommendation",
+                "name": "Recommendation name",
+                "saveBtn": "Save",
+                "closeBtn": "Close"
+            },
+            "isSavedModal": {
+                "header": "Recommendation",
+                "body": "Your recommendation is saved successfully",
+                "closeBtn": "Close",
+                "gotoBtn": "Go to recommendations"
+            }
+        }
+    }
+
+}

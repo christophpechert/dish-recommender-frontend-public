@@ -1,0 +1,244 @@
+{
+    "deleteModal": {
+        "header": "Löschen",
+        "body": "Wollen Sie folgendes löschen: {{name}}?",
+        "okBtn": "Löschen",
+        "abortBtn": "Abbrechen"
+    },
+    "responseRatingModal": {
+        "header": "Entfernen",
+        "body": "Wollen Sie das Gericht {{name}} aus ihrer Empfehlung entfernen?",
+        "okBtn": "Entfernen",
+        "abortBtn": "Abbrechen"
+    },
+    "responseModalCreateKeyword": {
+        "header": "Schlüsselwort",
+        "body": "{{name}} erfolgreich erstellt, wollen Sie ein weiteres erstellen?"
+    },
+    "responseModalCreateMenu": {
+        "header": "Speisekarte",
+        "body": "{{name}} erfolgreich erstellt, wollen Sie ein weiteres erstellen?"
+    },
+    "editModal": {
+        "header": "Bearbeiten",
+        "body": "Wollen Sie folgendes bearbeiten: {{name}}?",
+        "okBtn": "Bearbeiten",
+        "label": "Neuer Name",
+        "errMsg1": "Text muss mindestens 4 Zeichen lang sein!",
+        "abortBtn": "Abbrechen"
+    },
+    "preparationModal": {
+        "header": "Essens Zubereitung",
+        "body": "Wollen Sie folgendes zubereiten: {{name}}?",
+        "okBtn": "Zubereiten",
+        "label": "Sie können einen Kommentar hinterlassen",
+        "labelDatePicker": "Zubereitungsdatum",
+        "errMsg1": "Sie müssen eine Bewertung zwischen 1 und 5 Sternen hinterlassen",
+        "errMsg2": "Das zubereitungsdatum muss in der Vergangenheit oder Gegenwart liegen!",
+        "abortBtn": "Abbrechen"
+    },
+    "imageTakeModal": {
+        "header": "Machen Sie ein Foto",
+        "abortBtn": "Abbrechen",
+        "captureBtn": "Foto aufnehmen"
+    },
+    "loginComponent": {
+        "login": "Anmeldung",
+        "username": "Benutzername",
+        "password": "Passwort",
+        "accountQuestion": "Sie haben noch keinen account?",
+        "button": {
+            "login": "Anmelden",
+            "createNew": "Erstellen"
+        }
+    },
+    "home": {
+        "greeting": "Willkommen {{name}} zum Gerichte-Empfehler!",
+        "recommendation": {
+            "header": "Empfehlungen",
+            "btn1": "Lassen Sie sich Gerichte empfehlen",
+            "btn2": "Empfehlung für: {{name}}",
+            "text": "Hier kannst du dir ein oder mehrere Gerichte empfehlen lassen oder sie dir die gespeicherten Empfehlungen an."
+        },
+        "menu": {
+            "header": "Speisekarten",
+            "btn1": "Zu Ihren Speisekarten",
+            "text": "Schau dir deine Speisekarten an oder erstelle eine neue."
+        },
+        "dish": {
+            "header": "Gerichte",
+            "btn1": "Zu Ihren Gerichten",
+            "text": "Schau dir deine Gerichte an oder erstelle neue."
+        },
+        "notInUserGroup": {
+            "header": "Benutzergruppe",
+            "btn1": "Erstellen",
+            "btn2": "Beitreten",
+            "text": "Sie sind in keiner Benutzergruppe, Sie können eine neue erstellen oder einer vorhandenen beitreten."
+        }
+    },
+    "recommendationOverview": {
+        "header": "Ihre Empfehlungen",
+        "noResult": "Keine Empfehlungen gefunden",
+        "noResultBtn": "Wollen sie eine Empfehlung erstellen?",
+        "recommendation": {
+            "body": "Anzahl der Gerichte: {{numberOf}}",
+            "btn1": "Zeige Gerichte",
+            "btn2": "Löschen"
+        }
+    },
+    "dish": {
+        "element": {
+            "header": "Alle Gerichte",
+            "preparationModal": {
+                "header": "Zubereitungen",
+                "closeBtn": "Schließen",
+                "intlDate": "{{val, datetime}}"
+            },
+            "noPreparations": "Keine Zubereitungen vorhanden",
+            "viewAllBtn": "Alle anzeigen"
+        },
+        "detail": {
+            "headerNew": "Neues Gericht erstellen",
+            "headerUpdate": "Gericht ändern",
+            "name": "Name",
+            "description": "Beschreibung",
+            "comment": "Kommentar",
+            "type": "Typ",
+            "soup": "Suppe",
+            "starter": "Vorspeise",
+            "main_course": "Hauptspeise",
+            "dessert": "Nachspeise",
+            "snack": "Snack",
+            "side_dish": "Beilage",
+            "breakfast": "Frühstück",
+            "cookingTimeCategory": "Kochzeit Kategorie",
+            "fast": "Schnell",
+            "moderate": "Moderat",
+            "slow": "Langsam",
+            "dietaryCategory": "Diätetisch Kategorie",
+            "non_vegetarian": "Nicht Vegetarisch",
+            "vegetarian": "Vegetarisch",
+            "vegan": "Vegan",
+            "caloricCategory": "Kalorien Kategorie",
+            "light": "Leicht",
+            "medium": "Mittel",
+            "heavy": "Schwer",
+            "location": "Location",
+            "web": "Internet",
+            "cookbook": "Kochbuch",
+            "page": "Seite",
+            "link": "Link",
+            "keywords": "Schlüsselwörter",
+            "locationHeaderNew": "Neue Location erstellen",
+            "locationHeaderUpdate": "Location ändern",
+            "close": "Schließen",
+            "addNew": "Hinzufügen",
+            "save": "Speichern",
+            "menu": "Speisekarte",
+            "menus": "Speisekarten"
+        },
+        "images": {
+            "header": "Ihre Fotos von {{name}}"
+        }
+    },
+    "menu": {
+        "overview": {
+            "header": "Ihre Speisekarten",
+            "noMenus": "Keine Speisekarten vorhanden"
+        },
+        "element": {
+            "dish": "Gericht",
+            "dishes": "Gerichte"
+        },
+        "detail": {
+            "headerNew": "Neue Speisekarte erstellen",
+            "headerUpdate": "Speisekarte ändern",
+            "name": "Name",
+            "description": "Beschreibung",
+            "errorNameBlank": "Name darf nicht leer sein!",
+            "errorDescriptionBlank": "Beschreibung darf nicht leer sein!"
+        }
+    },
+    "keyword": {
+        "detail": {
+            "headerNew": "Neues Schlüsselwort erstellen",
+            "headerUpdate": "Schlüsselwort ändern",
+            "name": "Name",
+            "errMsg1": "{{name}} existiert schon, bitte einen anderen Namen wählen!",
+            "errMsg2": "Keine gültige ID",
+            "errMsg3": "Name darf nicht leer sein!"
+        },
+        "overview": {
+            "header": "Ihre Schlüsselwörter",
+            "noKeywords": "Sie haben noch keine Schlüsselwörter",
+            "createKeyword": "Wollen sie welche erstellen?"
+        }
+    },
+    "data": {
+        "overview": {
+            "header": "Importieren und exportieren",
+            "dishes": "Gerichte",
+            "menus": "Speisekarten",
+            "keywords": "Schlüsselwörter",
+            "exportBtn": "Exportieren"
+        }
+    },
+    "navBar": {
+        "home": "Startseite",
+        "userGroup": "Benutzergruppe",
+        "menus": "Speisekarten",
+        "dishes": "Gerichte",
+        "keywords": "Schlüsselwörter",
+        "create": "Erstellen",
+        "data": "Daten",
+        "logout": "Abmelden",
+        "login": "Anmelden",
+        "newDish": "Neues Gericht",
+        "newMenu": "Neue Speisekarte",
+        "newKeyword": "Neues Schlüsselwort"
+    },
+    "recommendation": {
+        "creation": {
+            "header": "Empfehlung",
+            "menus": "Speisekarten",
+            "keywords": "Schlüsselwörter",
+            "keywordBtn1": "Nur ein Schlüsselwort muss enthalten sein",
+            "keywordBtn2": "Alle schlüsselwörter müssen enthalten sein",
+            "errMsg": "Bitte eine Speisekarte wählen!",
+            "type": "Typ",
+            "soup": "Suppe",
+            "starter": "Vorspeise",
+            "main_course": "Hauptspeise",
+            "dessert": "Nachspeise",
+            "snack": "Snack",
+            "side_dish": "Beilage",
+            "breakfast": "Frühstück",
+            "cookingTimeCategory": "Kochzeit Kategorie",
+            "fast": "Schnell",
+            "moderate": "Moderat",
+            "slow": "Langsam",
+            "dietaryCategory": "Diätetisch Kategorie",
+            "non_vegetarian": "Nicht Vegetarisch",
+            "vegetarian": "Vegetarisch",
+            "vegan": "Vegan",
+            "caloricCategory": "Kalorien Kategorie",
+            "light": "Leicht",
+            "medium": "Mittel",
+            "heavy": "Schwer",
+            "noResult": "Keine Gerichte gefunden",
+            "saveModal": {
+                "header": "Empfehlung speichern",
+                "name": "Name der Empfehlung",
+                "saveBtn": "Speichern",
+                "closeBtn": "Schließen"
+            },
+            "isSavedModal": {
+                "header": "Empfehlung",
+                "body": "Ihre Empfehlung wurde erfolgreich gespeichert",
+                "closeBtn": "Schließen",
+                "gotoBtn": "Gehe zu Empfehlungen"
+            }
+        }
+    }
+}
